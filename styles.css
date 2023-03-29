@@ -1,0 +1,95 @@
+/* .row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+
+.picture {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://assets.rbl.ms/20566447/origin.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://assets.rbl.ms/20566447/origin.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-attachment: fixed; */
+    /* overflow: hidden; */
+/* }
+
+.title {
+    width: 40%;
+    color: white;
+    margin: 25% 0 25% 5%;
+} */
+
+/* 
+body{
+    overflow: hidden;
+} */
+
+[class*="col-"] {
+    width: 100%;
+}   
+
+@media only screen and (max-width: 768px) { */
+      /* For mobile phones and tablets: */
+      [class*="col-"] {
+          width: 100%;
+      }
+  } 
+
+/* .card {
+    float: right;
+    margin: 11% 11% 0% 0%;
+    height: 500px;
+} */
+
+/* .login-pic {
+    object-fit: cover;
+    object-position: left;
+} */
+
+.login h1, h2, h3{
+    text-align: center;
+}
+
+.login h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.login h2 {
+    width: 85%;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+.login h3 {
+    width: 80%;
+    font-size: 18px;
+    padding-left: 19%;
+}
+
+.card {
+    height: 60%;
+    margin: 45px auto;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    font-size: 45px;
+}
+
+.card .btn a {
+    text-decoration: none;
+    color: white;
+}

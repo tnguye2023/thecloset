@@ -1,0 +1,21 @@
+.btn {
+    margin-right: 25px;
+    width: 100px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.form-group {
+    margin-top: 25px;
+}
+
+.required {
+    color: red;
+}

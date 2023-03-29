@@ -1,0 +1,28 @@
+.filter {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.float-button {
+    background-color: #ACBEBF;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnailtitle {
+    text-decoration: none;
+    color: black;
+}
